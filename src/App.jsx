@@ -4,6 +4,7 @@ import FavoriteBrands from "./components/FavoriteBrands"
 import Hero from "./components/Hero"
 import HowItWorks from "./components/HowItWorks"
 import Navbar from "./components/Navbar"
+import ReadMore from "./components/ReadMore"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <DriveMore/>
     <ActivateMoment/>
     <HowItWorks/>
+    <ReadMore/>
     </>
   )
 }
