@@ -1,3 +1,4 @@
+import ActivateMoment from "./components/ActivateMoment"
 import DriveMore from "./components/DriveMore"
 import FavoriteBrands from "./components/FavoriteBrands"
 import Hero from "./components/Hero"
@@ -12,6 +13,7 @@ function App() {
     <Hero/>
     <FavoriteBrands/>
     <DriveMore/>
+    <ActivateMoment/>
     </>
   )
 }
