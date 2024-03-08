@@ -6,10 +6,19 @@ const Navbar = () => {
       <img src={navLogo} alt="nav-logo" width={'90px'} height={'44px'} />
     </div>  
       <ul className='flex items-center'>
-        <li className='py-[14px] px-[20px]'><a href="#" className='flex items-center text-based font-montserrat font-medium opacity-[0.7] text-17'><span>Product</span><svg height={'100px'}  viewBox="0 0 24 24" fill="#171717" className=' w-[20px]'>
+        <li className='product relative py-[14px] px-[20px]'><a href="#" className='flex items-center text-based font-montserrat font-medium opacity-[0.7] text-17'><span>Product</span><svg height={'100px'}  viewBox="0 0 24 24" fill="#171717" className=' w-[20px]'>
         <path d="M17 11l-5 5-5-5z"/>
         </svg>
-        </a></li>
+        </a>
+         <ul className=' dropdown shadow-md cursor-pointer font-poppins p-2 absolute rounded-md z-50 w-[330px] bg-white top-[85px] -left-[70%]  text-based'>
+            <li className='transition-all py-[1rem] px-[0.8rem] hover:bg-custom-yellow rounded-lg'><a href="#">Moments</a></li>
+            <li className='transition-all py-[1rem] px-[0.8rem] hover:bg-custom-yellow rounded-lg'><a href="#">Plays</a></li>
+            <li className='transition-all py-[1rem] px-[0.8rem] hover:bg-custom-yellow rounded-lg'><a href="#">Goals</a></li>
+            <li className='transition-all py-[1rem] px-[0.8rem] hover:bg-custom-yellow rounded-lg'><a href="#">Examples</a></li>
+            <li className='transition-all py-[1rem] px-[0.8rem] hover:bg-custom-yellow rounded-lg'><a href="#">Integrations</a></li>
+            <li className='transition-all py-[1rem] px-[0.8rem] hover:bg-custom-yellow rounded-lg'><a href="#">Pricing</a></li>
+         </ul>
+        </li>
         <li className='py-[14px] px-[20px]' ><a href="#" className='text-based font-montserrat font-medium opacity-[0.7] text-17'>Blog</a></li>
         <li className='py-[14px] px-[20px]' ><a href="#" className='text-based font-montserrat font-medium opacity-[0.7] text-17'>Stop Focusing on LTV</a></li>
       </ul>
