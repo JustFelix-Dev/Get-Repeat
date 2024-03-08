@@ -4,7 +4,7 @@ const ReadMoreCard = ({ image,header,content}) => {
   return (
     <div className="border border-based cursor-pointer overflow-hidden rounded-[25px] min-h-[456px] max-w-[276px] w-full">
         <div className="">
-        <img src={image} alt="readmore-image" className="h-full object-fit" loading="lazy" />
+        <img src={image} alt="readmore-image" className="w-full" loading="lazy" />
         </div>
         <div className="p-4 hover:bg-[#f7f5f5] h-full transition-all">
             <p className="text-17 font-poppins font-medium text-based">{header}</p>

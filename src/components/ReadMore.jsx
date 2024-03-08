@@ -1,7 +1,7 @@
 import ReadMoreCard from "./ReadMoreCard"
-import messageIcon from "../assets/readmore-message.svg";
-import phoneIcon from "../assets/readmore-phone.svg";
-import chatIcon from "../assets/readmore-chat.svg";
+import messageIcon from "../assets/readmore-message.png";
+import phoneIcon from "../assets/readmore-phone.png";
+import chatIcon from "../assets/readmore-chat.png";
 
 const ReadMore = () => {
   return (
