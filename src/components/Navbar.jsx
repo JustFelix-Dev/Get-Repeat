@@ -1,4 +1,6 @@
 import navLogo from '../assets/logo.avif' 
+import { BiMenu } from "react-icons/bi";
+
 const Navbar = () => {
   return (
     <nav className="bg-custom-yellow flex items-center justify-between h-[60px] px-6">
@@ -22,8 +24,11 @@ const Navbar = () => {
         <li className='py-[14px] px-[20px]' ><a href="#" className='text-based font-montserrat font-medium opacity-[0.7]  hover:opacity-100 transition-all text-17'>Blog</a></li>
         <li className='py-[14px] px-[20px]' ><a href="#" className='text-based font-montserrat font-medium opacity-[0.7]  hover:opacity-100 transition-all text-17'>Stop Focusing on LTV</a></li>
       </ul>
+      <div className='flex items-center gap-4'>
       <button className='bg-[#37352F] hover:bg-[rgb(55,53,47,0.8)] transition-all 
     text-white py-[6px] px-[16px] text-17 font-montserrat rounded-full'>GET STARTED</button>
+       <div className='hidden menuOpen'><BiMenu size={25}/></div>
+      </div>
     </nav>
   )
 }
