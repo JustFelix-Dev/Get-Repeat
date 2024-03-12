@@ -5,9 +5,9 @@ import automateImage from "../assets/howitworks-automate.avif";
 
 const HowItWorks = () => {
   return (
-    <section className="flex items-center bg-[#EDE7E2] min-h-[1200px]">
+    <section className="py-8 sm:py-0 -mx-4 sm:mx-0 px-4 flex items-center bg-[#EDE7E2] min-h-[1200px]">
         <div className="w-full max-w-[908px] mx-auto">
-           <header className="font-poppins text-[44px] text-based font-semibold">HOW REPEAT WORKS</header>
+           <header className="font-poppins text-[23px] md:text-[44px] text-based font-semibold">HOW REPEAT WORKS</header>
            <div className="mt-6 flex flex-col gap-10">
              <HowItWorksCard header='INGEST AND ANALYZE' content='Repeat connects to your Shopify store to ingest all of your historical orders and each new order that 
             your customers place. We analyze those orders at 

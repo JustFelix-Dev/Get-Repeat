@@ -37,7 +37,7 @@ const Navbar = () => {
   
 
   return (
-    <nav className="bg-custom-yellow flex items-center justify-between h-[60px] px-6">
+    <nav className="-mx-4 sm:mx-0 bg-custom-yellow flex items-center justify-between h-[60px] px-6">
     <div className="logo cursor-pointer">
       <img src={navLogo} alt="nav-logo" width={'90px'} height={'44px'} />
     </div>  
@@ -61,7 +61,7 @@ const Navbar = () => {
       </ul>
       <div className='flex items-center gap-4'>
       <button className='bg-[#37352F] hover:bg-[rgb(55,53,47,0.8)] transition-all flex items-center justify-center 
-    text-white py-[6px] px-[16px] text-17 font-montserrat rounded-full'>GET STARTED</button>
+    text-white py-[6px] px-[16px]  text-[15px] md:text-17 font-montserrat rounded-full'>GET STARTED</button>
        <div  onClick={handleClick}  className=' cursor-pointer hidden menuOpen'><BiMenu size={25}/></div>
       </div>
     </nav>

@@ -12,7 +12,7 @@ import ReadMore from "./components/ReadMore"
 function App() {
  
   return (
-    <>
+    <div className="px-4 sm:px-0">
     <Navbar/>
     <Hero/>
     <FavoriteBrands/>
@@ -22,7 +22,7 @@ function App() {
     <ReadMore/>
     <Customer/>
     <Footer/>
-    </>
+    </div>
   )
 }
 

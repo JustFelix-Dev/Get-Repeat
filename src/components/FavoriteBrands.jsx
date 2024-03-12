@@ -7,15 +7,13 @@ import auraLogo from "../assets/aura.png";
 import hydrantLogo from "../assets/hydrant.png";
 import oseaLogo from "../assets/osea.png"
 
-
-
 const FavoriteBrands = () => {
   return (
     <section className="min-h-[942.94px]">
       <div className="flex flex-col gap-6 w-full max-w-[908px] mx-auto py-[80px]">
-        <header className="text-[43.98px] font-poppins text-based font-semibold max-w-[25ch]">YOUR FAVORITE BRANDS ARE HAVING A MOMENT</header>
-        <div className="flex flex-col gap-6">
-            <div className="flex gap-10">
+        <header className=" text-[24px] md:text-[43.98px] font-poppins text-based font-semibold text-center sm:text-start max-w-[25ch]">YOUR FAVORITE BRANDS ARE HAVING A MOMENT</header>
+        <div className="flex flex-col items-center gap-6">
+            <div className="  flex flex-col md:flex-row gap-10">
              <FavBrandCard image={increasedLogo} header='Increased 90-day repeat orders by 10%'
              content='"Personalized timing powering 
              direct mail helped us reach our 
@@ -44,11 +42,15 @@ const FavoriteBrands = () => {
               brand='Black Girl Vitamins'
               />
             </div>
-            <div className="flex gap-12">
-              <div className="rounded-3xl overflow-hidden" ><img src={olipopLogo} alt="logo" loading="lazy"/></div>
-              <div className="rounded-3xl overflow-hidden" > <img src={auraLogo} alt="logo" loading="lazy" /></div>
-              <div className="rounded-3xl overflow-hidden"> <img src={hydrantLogo} alt="logo" loading="lazy" /></div>
-              <div className="rounded-3xl overflow-hidden"><img src={oseaLogo} alt="logo" loading="lazy" /></div>
+            <div className="flex flex-col justify-center md:flex-row gap-10">
+              <div className="flex gap-10">
+              <div className=" rounded-3xl overflow-hidden" ><img src={olipopLogo}  alt="logo" loading="lazy"/></div>
+              <div className="rounded-3xl overflow-hidden" > <img src={auraLogo}  alt="logo" loading="lazy" /></div>
+              </div>
+              <div  className="flex gap-10">
+              <div className="rounded-3xl overflow-hidden"> <img src={hydrantLogo}  alt="logo" loading="lazy" /></div>
+              <div className="rounded-3xl overflow-hidden"><img src={oseaLogo} alt="logo"  loading="lazy" /></div>
+              </div>
             </div>
         </div>
       </div>
