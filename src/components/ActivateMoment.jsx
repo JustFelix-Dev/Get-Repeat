@@ -17,9 +17,9 @@ const ActivateMoment = () => {
         <div></div>
       </div>
       <div className='flex flex-col ' >
-      <div className='my-4 flex flex-col gap-2'>
-       <header className='font-poppins text-[20px] md:text-[29.325px] font-semibold leading-[38.12px] text-center text-based' >FEATURED PLAYS</header>
-       <div className='flex flex-wrap justify-center gap-8'>
+      <div className='my-4 flex flex-col gap-4'>
+       <header className='font-poppins text-[20px] md:text-[29.325px] font-semibold leading-[38.12px] text-center sm:text-start text-based' >FEATURED PLAYS</header>
+       <div className='flex flex-wrap justify-center sm:justify-normal gap-8'>
          <PlayCard header='Automatically Reach' 
          subText='Subscription-Ready Customers' 
           content='Identify and connect with 
